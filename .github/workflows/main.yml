@@ -1,0 +1,10 @@
+- name: Android Recovery Action
+  uses: XenonTheInertG/android-recovery-action@main
+  env:
+    MANIFEST: "https://github.com/TeamWin/android_bootable_recovery -b android-12"
+    DT_LINK: "https://github.com/gofibif458/twrp_device_xiaomi_ysl -b master"
+    VENDOR: "xiaomi"
+    CODENAME: "ysl"
+    KERNEL_LINK: "https://github.com/DhruvChhura/kernel_xiaomi_ysl -b 12"
+    TARGET: "recoveryimage"
+    FLAVOR: "eng"
