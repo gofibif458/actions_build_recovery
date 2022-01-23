@@ -1,0 +1,16 @@
+{
+  "twrp_url": "https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni",
+  "twrp_branch": "twrp-9.0",
+  "git_username": "gofibif458",
+  "git_email": "gofibif458@mail.com.tr",
+  "use_own_dt": true,
+  "dt_url": "gofibif458/twrp_device_xiaomi_ysl",
+  "dt_branch": "master",
+  "dt_remote": "github",
+  "dt_path": "device/xiaomi/ysl",
+  "device_code": "ysl",
+  "fix_product": true,
+  "fix_misscom": true,
+  "fix_busybox": false,
+  "fix_branch": "android-9.0"
+}
